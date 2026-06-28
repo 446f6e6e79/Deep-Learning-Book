@@ -19,7 +19,7 @@ The adversarial aspect of this setup is crucial, where the Generator aims to pro
 \newpage
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\linewidth]{chapters/09-Generative-Models/tikz/Generative Adversarial Network.pdf}
+    \includegraphics[width=\linewidth]{chapters/09-Generative-Models/tikz/Generative-Adversarial-Network.pdf}
     \caption{GAN Architecture}
 \end{figure}
 
@@ -70,7 +70,7 @@ The function to be optimized is complex, so the training is \textbf{unstable}. I
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.7\linewidth]{chapters/09-Generative-Models/tikz/SGD GAN Plot 1.pdf}
+    \includegraphics[width=0.7\linewidth]{chapters/09-Generative-Models/tikz/SGD-GAN-Plot-1.pdf}
     \caption{SGD Plot for Generator during Training}
 \end{figure}
 
@@ -78,7 +78,7 @@ In the figure, the line represents the gradient for the generator and the left p
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.7\linewidth]{chapters/09-Generative-Models/tikz/SGD GAN Plot 2.pdf}
+    \includegraphics[width=0.7\linewidth]{chapters/09-Generative-Models/tikz/SGD-GAN-Plot-2.pdf}
     \caption{SGD Plot (Inverted) for Generator during Training}
 \end{figure}
 
@@ -115,7 +115,7 @@ Another serious problem is the \textbf{Mode collapse}. This phenomenon occurs wh
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.8\linewidth]{chapters/09-Generative-Models/tikz/Mode Collapse MNIST.pdf}
+    \includegraphics[width=0.8\linewidth]{chapters/09-Generative-Models/tikz/Mode-Collapse-MNIST.pdf}
     \caption{Mode Collapse Example}
 \end{figure}
 
@@ -127,7 +127,7 @@ Both rows display the same sequence, but the crucial difference lies in how the 
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\linewidth]{chapters/09-Generative-Models/tikz/Mode Collapse HeatMap.pdf}
+    \includegraphics[width=\linewidth]{chapters/09-Generative-Models/tikz/Mode-Collapse-HeatMap.pdf}
     \caption{Mode Collapse HeatMap}
 \end{figure}
 
@@ -157,7 +157,7 @@ Also, the article showed that, to compute the output image, the generator perfor
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.8\linewidth]{chapters/09-Generative-Models/tikz/Arithmetics of GAN.pdf}
+    \includegraphics[width=0.8\linewidth]{chapters/09-Generative-Models/tikz/Arithmetics-of-GAN.pdf}
     \caption{Example of Vector Arithmetic in GANs.}
 \end{figure}
 
@@ -257,7 +257,7 @@ In the cGAN framework, the generator incorporates the \textbf{label as an extens
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\linewidth]{chapters/09-Generative-Models/tikz/Conditional GAN.pdf}
+    \includegraphics[width=\linewidth]{chapters/09-Generative-Models/tikz/Conditional-GAN.pdf}
     \caption{Conditional GAN Architecture}
 \end{figure}
 
@@ -294,7 +294,7 @@ The CycleGAN architecture modifies the classical GAN training process by adding 
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.4\linewidth]{chapters/09-Generative-Models/tikz/CycleGAN Rolled.pdf}
+    \includegraphics[width=0.4\linewidth]{chapters/09-Generative-Models/tikz/CycleGAN-Rolled.pdf}
     \caption{Cycle GAN Rolled Architecture}
 \end{figure}
 
@@ -305,7 +305,7 @@ Below we have the "unrolled" versions of the model and the concept of Cycle-Cons
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\linewidth]{chapters/09-Generative-Models/tikz/CycleGAN Unrolled.pdf}
+    \includegraphics[width=\linewidth]{chapters/09-Generative-Models/tikz/CycleGAN-Unrolled.pdf}
     \caption{Cycle GAN Unrolled Architecture}
 \end{figure}
 
@@ -316,7 +316,7 @@ Below we have the "unrolled" versions of the model and the concept of Cycle-Cons
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.9\linewidth]{chapters/09-Generative-Models/tikz/Progressive GAN.pdf}
+    \includegraphics[width=0.9\linewidth]{chapters/09-Generative-Models/tikz/Progressive-GAN.pdf}
     \caption{Progressive GAN architecture}
 \end{figure}
 
@@ -370,7 +370,7 @@ Traditional autoencoders are designed to \textbf{replicate input data from the s
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\linewidth]{chapters/09-Generative-Models/tikz/Variational Autoencoder.pdf}
+    \includegraphics[width=\linewidth]{chapters/09-Generative-Models/tikz/Variational-Autoencoder.pdf}
     \caption{Variational Autoencoders Architecture}
 \end{figure}
 
@@ -422,19 +422,19 @@ The second term can be computed in closed form because it involves the KL diverg
 \begin{figure}[!htbp]
     \begin{minipage}[t]{.3\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{chapters/09-Generative-Models/tikz/Latent Space VAEs 1.jpeg}
+        \includegraphics[width=\textwidth]{chapters/09-Generative-Models/tikz/Latent-Space-VAEs-1.jpeg}
         \subcaption{Only Reconstruction Term}
     \end{minipage}
     \hfill
     \begin{minipage}[t]{.3\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{chapters/09-Generative-Models/tikz/Latent Space VAEs 2.jpeg}
+        \includegraphics[width=\textwidth]{chapters/09-Generative-Models/tikz/Latent-Space-VAEs-2.jpeg}
         \subcaption{Only Regularization Term}
     \end{minipage}  
     \hfill
     \begin{minipage}[t]{.3\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{chapters/09-Generative-Models/tikz/Latent Space VAEs 3.jpeg}
+        \includegraphics[width=\textwidth]{chapters/09-Generative-Models/tikz/Latent-Space-VAEs-3.jpeg}
         \subcaption{Both}
     \end{minipage}  
     \caption{Latent Spaces Comparison}

@@ -19,7 +19,7 @@ At each time step, the word vector $S_t$ is transformed through an embedding lay
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\linewidth]{chapters/07-Sequence-Models/tikz/Show and Tell Model.pdf}
+    \includegraphics[width=\linewidth]{chapters/07-Sequence-Models/tikz/Show-and-Tell-Model.pdf}
     \caption{Show and Tell Caption Model}
 \end{figure}
 
@@ -39,7 +39,7 @@ With Beam Search, on the other hand, we iteratively consider the \textbf{$k$ bes
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\linewidth]{chapters/07-Sequence-Models/tikz/Beam Search.pdf}
+    \includegraphics[width=\linewidth]{chapters/07-Sequence-Models/tikz/Beam-Search.pdf}
     \caption{Beam Search Visual Example}
 \end{figure}
 
@@ -66,7 +66,7 @@ Example:
 
 \; The Reference is: "\textit{Transformers: Transformers make everything quick and efficient.}" 
 
-\; The Candidate is: "\textit{Transformers Transformers Transformers Transformers.}" \ \img{chapters/07-Sequence-Models/tikz/Optimus Prime.png}
+\; The Candidate is: "\textit{Transformers Transformers Transformers Transformers.}" \ \img{chapters/07-Sequence-Models/tikz/Optimus-Prime.png}
  
 The BLEU score is low because the candidate repeats "Transformers" without providing full context, while the reference has a meaningful sentence. 
 
@@ -87,7 +87,7 @@ The main innovations introduced by this approach are as follows:
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\linewidth]{chapters/07-Sequence-Models/tikz/Show, Attend and Tell.pdf}
+    \includegraphics[width=\linewidth]{chapters/07-Sequence-Models/tikz/Show-Attend-and-Tell.pdf}
     \caption{Flow of Show, Attend and Tell}
 \end{figure}
 
@@ -103,7 +103,7 @@ On the other hand, in hard attention, the attention map gives score 1 to the hig
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\linewidth]{chapters/07-Sequence-Models/tikz/Attention Types.pdf}
+    \includegraphics[width=\linewidth]{chapters/07-Sequence-Models/tikz/Attention-Types.pdf}
     \caption{Soft and Hard Attention}
 \end{figure}
 
@@ -131,7 +131,7 @@ RNN Enc-Dec was introduced in the work \href{https://arxiv.org/pdf/1409.3215}{"L
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.7\linewidth]{chapters/07-Sequence-Models/tikz/RNN Enc-Dec.pdf}
+    \includegraphics[width=0.7\linewidth]{chapters/07-Sequence-Models/tikz/RNN-Enc-Dec.pdf}
     \caption{RNN Enc-Dec Architecture}
 \end{figure}
 
@@ -151,7 +151,7 @@ The decoder, on the other hand, generates the output sequence one step at a time
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.7\linewidth]{chapters/07-Sequence-Models/tikz/RNN with Attention.pdf}
+    \includegraphics[width=0.7\linewidth]{chapters/07-Sequence-Models/tikz/RNN-with-Attention.pdf}
     \caption{RNN with Attention Architecture}
 \end{figure}
 
@@ -195,12 +195,12 @@ The attention mechanism works as follows:
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=0.5\linewidth]{chapters/07-Sequence-Models/tikz/Attention is Alignment 1.pdf}
+    \includegraphics[width=0.5\linewidth]{chapters/07-Sequence-Models/tikz/Attention-is-Alignment-1.pdf}
 \end{figure}
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\linewidth]{chapters/07-Sequence-Models/tikz/Attention is Alignment 2.pdf}
+    \includegraphics[width=\linewidth]{chapters/07-Sequence-Models/tikz/Attention-is-Alignment-2.pdf}
     \caption{The mechanism of attention in the RNN Encoder-Decoder model}
 \end{figure}
 
@@ -217,7 +217,7 @@ Instead of using a global view of all input tokens, local attention utilizes a \
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\linewidth]{chapters/07-Sequence-Models/tikz/Local Attention Comparison.pdf}
+    \includegraphics[width=\linewidth]{chapters/07-Sequence-Models/tikz/Local-Attention-Comparison.pdf}
     \caption{Global Attention vs. Local Attention}
 \end{figure}
 
@@ -332,7 +332,7 @@ The architecture of Woxrd2Vec is essentially a \textbf{two-layer surface neural 
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[width=\linewidth]{chapters/07-Sequence-Models/tikz/Word2Vec Architecture.pdf}
+    \includegraphics[width=\linewidth]{chapters/07-Sequence-Models/tikz/Word2Vec-Architecture.pdf}
     \caption{Understanding the neural network training of Word2Vec model}
 \end{figure}
 
