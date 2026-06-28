@@ -18,7 +18,7 @@ Below we show a figure illustrating the partial derivatives of a function. The f
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[scale=2]{tikz/chapter2 - Partial Derivatives.pdf}
+    \includegraphics[scale=2]{chapters/02-Backpropagation/tikz/Partial Derivatives.pdf}
     \caption{Visualization of Partial Derivatives in Two Distinct Ways}
 \end{figure}
 
@@ -28,7 +28,7 @@ Having understood partial derivatives and the role of the gradient in the optimi
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[scale=0.75]{tikz/chapter2 - Gradient Descent.pdf}
+    \includegraphics[scale=0.75]{chapters/02-Backpropagation/tikz/Gradient Descent.pdf}
     \caption{Visual Representation of the Gradient Descent Algorithm}
 \end{figure}
 
@@ -41,7 +41,7 @@ In neural networks, the optimization problem is non-convex, leading to the exist
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[scale=0.9]{tikz/chapter2 - Local Minima.pdf}
+    \includegraphics[scale=0.9]{chapters/02-Backpropagation/tikz/Local Minima.pdf}
     \caption{Local and Global Minima}
 \end{figure}
 
@@ -51,7 +51,7 @@ Another optimization challenge arises from saddle points, where some directions 
 
 \begin{figure}[!htbp]
     \centering
-    \includegraphics[scale=0.88]{tikz/chapter2 - Saddle Point.pdf}
+    \includegraphics[scale=0.88]{chapters/02-Backpropagation/tikz/Saddle Point.pdf}
     \caption{Saddle Point Illustration}
 \end{figure}
 
@@ -93,7 +93,7 @@ Once we have calculated the derivatives of the error with respect to the hidden 
 In this section, we will explore backpropagation of the error through a neural network in detail, starting with the output layer and proceeding to the input layer. We begin with a neural network composed of \textbf{one neuron per layer}.
 
 \begin{minipage}{0.45\textwidth}
-\includegraphics[width=\textwidth]{tikz/chapter2 - Chain Rule One Layer.pdf}
+\includegraphics[width=\textwidth]{chapters/02-Backpropagation/tikz/Chain Rule One Layer.pdf}
 \captionof{figure}{Conceptualisation of Calculations}
 \end{minipage}
 \begin{minipage}{0.55\textwidth}
@@ -144,7 +144,7 @@ $$\frac{\textcolor{myred}{\partial L}}{\textcolor{myorange}{\partial b^{(l)}}} =
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=\textwidth]{tikz/chapter2 - Chain Rule Multiple Layer.pdf}
+\includegraphics[width=\textwidth]{chapters/02-Backpropagation/tikz/Chain Rule Multiple Layer.pdf}
 \caption{Conceptualisation of Calculations (Extended)}
 \end{figure}
 
@@ -186,15 +186,15 @@ The job is done! At least for this network, now we must add more neurons for eac
 
 \end{minipage}
 \begin{minipage}{0.45\textwidth}
-\includegraphics[width=\textwidth]{tikz/chapter2 - Chain Rule Multiple Layer Dependencies.pdf}
+\includegraphics[width=\textwidth]{chapters/02-Backpropagation/tikz/Chain Rule Multiple Layer Dependencies.pdf}
 \captionof{figure}{Calculations with 3 Layers}
 \end{minipage}
 
 \begin{minipage}{0.4\textwidth}
-\includegraphics[width=\textwidth]{tikz/chapter2 - Indexing.pdf}
+\includegraphics[width=\textwidth]{chapters/02-Backpropagation/tikz/Indexing.pdf}
 \captionof{figure}{Neural Network Indexing}
 \vspace{0.8cm}
-\includegraphics[width=\textwidth]{tikz/chapter2 - Indexing Example.pdf}
+\includegraphics[width=\textwidth]{chapters/02-Backpropagation/tikz/Indexing Example.pdf}
 \captionof{figure}{Example of Indexing}
 \end{minipage}
 \begin{minipage}{0.05\textwidth}
